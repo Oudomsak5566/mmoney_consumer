@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "852592173178",
+    "project_id": "mmoneylite",
+    "storage_bucket": "mmoneylite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852592173178:android:677f5ced5f16163cea5bc3",
+        "android_client_info": {
+          "package_name": "com.ltc.mmoneylite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852592173178-78pf5f6kvar3l4dsrtbh4atm39jrdors.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApke5f5WspQ072lcNMuSD_-jK0DaW5UJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852592173178-78pf5f6kvar3l4dsrtbh4atm39jrdors.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

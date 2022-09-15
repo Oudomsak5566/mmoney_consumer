@@ -1,0 +1,66 @@
+get http://172.28.14.87:1337/Users
+
+
+###
+post http://172.28.14.87:1337/signup
+Content-Type: application/application/json
+
+{
+    "msisdn":"2054656226",
+    "birthday":"1985-08-18"
+}
+
+###
+
+post http://172.28.14.87:1337/confirmOTP
+Content-Type: application/application/json
+
+{
+    "otp":"472100",
+    "ref":"1vH45"
+}
+
+###
+post http://172.28.14.87:1337/verify
+Content-Type: application/application/json
+
+{
+    "msisdn":"2052555999"
+}
+
+###
+post http://172.28.14.87:1337/register
+Content-Type: application/application/json
+
+{
+    "msisdn":"2052555999",
+     "pin": "555555"
+ 
+}
+
+###
+post http://172.28.14.87:1337/delete
+Content-Type: application/application/json
+
+{
+    "msisdn":"2052555999"
+}
+
+###
+post http://172.28.14.87:1337/login
+Content-Type: application/application/json
+
+{
+    "msisdn":"2052555999",
+     "pin": "555555"
+}
+
+
+
+###
+post http://172.28.14.87:1337/getBalance
+Content-Type: application/application/json
+
+{
+    "msisdn":"2052555999"
+}
